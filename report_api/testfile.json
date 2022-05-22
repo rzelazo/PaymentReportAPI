@@ -1,0 +1,56 @@
+{
+    "pay_by_link": [
+        {
+            "created_at": "2022-05-13T19:12:02.370518+02:00",
+            "currency": "EUR",
+            "amount": 40000,
+            "description": "Car",
+            "bank": "idea_bank"
+        },
+
+        {
+            "created_at": "2022-01-02T11:58:02.370518+07:00",
+            "currency": "USD",
+            "amount": 9999,
+            "description": "Clothing store",
+            "bank": "mbank"
+        }
+    ],
+    "dp": [
+        {
+            "created_at": "2022-03-21T11:32:11.370518+03:00",
+            "currency": "PLN",
+            "amount": 31700,
+            "description": "Restaurant",
+            "iban": "PLNOA123435467887653"
+        },
+        {
+            "created_at": "2022-04-21T21:34:11.370518+01:00",
+            "currency": "USD",
+            "amount": 2200,
+            "description": "Toy Store",
+            "iban": "GERSXOA86756435435465468"
+        }
+    ],
+    "card": [
+        {
+            "created_at": "2022-05-21T19:20:02.370518+02:00",
+            "currency": "EUR",
+            "amount": 2000,
+            "description": "Restaurant",
+            "cardholder_name": "Jan",
+            "cardholder_surname": "Kowalski",
+            "card_number": "1234567890000"
+        },
+
+        {
+            "created_at": "2021-11-21T11:02:02.370518+04:00",
+            "currency": "GBP",
+            "amount": 200,
+            "description": "Ice cream shop",
+            "cardholder_name": "Steven",
+            "cardholder_surname": "Gerrard",
+            "card_number": "11112222333344445555"
+        }
+    ]
+}
