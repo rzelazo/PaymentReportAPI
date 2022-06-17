@@ -1,6 +1,6 @@
 # PaymentReportAPI
 
-The API takes payment data JSON with various attributes, converts them into a unified report, and then returns them to the user as JSON.
+The API takes payment data JSON with various attributes, converts them into a unified report, and then returns the report to the user as JSON.
 The API also integrates with the https://api.nbp.pl/ to convert payment data in foreign currency to PLN.
 
 #### To start the server:
