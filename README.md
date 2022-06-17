@@ -17,7 +17,7 @@ python manage.py migrate
 ```
 python manage.py check
 ```
-5. Run the server one the desired port (eg. 8000) with:
+5. Run the server on the desired port (eg. 8000) with:
 ```
 python manage.py runserver 8000
 ```
