@@ -1,11 +1,33 @@
 # PaymentReportAPI
-### Generate report request endpoint:
+
+The API takes payment data JSON with various attributes, converts them into a unified report, and then returns them to the user as JSON.
+The API also integrates with the https://api.nbp.pl/ to convert payment data in foreign currency to PLN.
+
+#### To start the server:
+1. Clone the repository
+2. In the root directory of the project run the command below to download necessary dependencies:
+```
+pip install -r requirements.txt
+```
+3. Set up the database with:
+```
+python manage.py migrate
+```
+4. Check if there are no errors with:
+```
+python manage.py check
+```
+5. Run the server one the desired port (eg. 8000) with:
+```
+python manage.py runserver 8000
+```
+
+## Generate report request endpoint:
 ```
 Request (content_type: application/json)
 POST /report
 ```
-The API takes payment data JSON with various attributes, converts them into a unified report, and then returns them to the user as JSON.
-The API also integrates with the https://api.nbp.pl/ to convert payment data in foreign currency to PLN.
+
 #### Example request body:
 ```
 {
